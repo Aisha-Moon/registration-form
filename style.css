@@ -1,0 +1,38 @@
+body{
+	background:url(R.jpg);
+	background-size:cover;
+}
+.register-form{
+	width:500px;
+	background:rgba(0,0,0,.3);
+	margin:150px auto;
+	padding:30px 20px;
+	border-radius:5px;
+	
+}
+.register-form input{
+	display:block;
+	width:70%;
+	font-size:18px;
+	padding:3px; border:1px solid yellow;
+	background:transparent; color:white;
+	border-radius:5px;
+}
+.register-form label{
+	color:#fff;
+	padding:5px 0;
+	cursor:pointer;
+	font-size:20px;
+	font-family:tahoma;
+}
+.register-form input[type=submit]{
+	width:200px; margin-top:10px;cursor:pointer;
+}
+.register-form p{
+	color:white;
+	font-size:20px;
+	font-family:tahoma;
+}
+.register-form p a{
+	color:yellow;
+}
